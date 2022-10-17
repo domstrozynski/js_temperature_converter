@@ -55,3 +55,7 @@ button:hover {
   color: #d90c0c;
   border: 3px solid #d90c0c;
 }
+
+.reset-click {
+  transform: rotate(1turn);
+}
