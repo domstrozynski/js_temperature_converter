@@ -49,6 +49,7 @@ const conversion = () => {
 const reset = () => {
   converter.value = '';
   result.textContent = '';
+  resetBtn.classList.toggle('reset-click');
 };
 
 changeBtn.addEventListener('click', changeSpan);
